@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varez</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+    <!--#NAV VAR-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#inicio">Varez</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi"onclick="seleccionar()">ABOUT ME</a></li>
+                    <li><a href="#skills"onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum"onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio"onclick="seleccionar()">PLACERES</a></li>
+                    <li><a href="#contacto"onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/me.jpg" alt="">
+                <!--IMG DE 425X425px-->
+            </div>
+            <h1>Christo Álvarez</h1>
+            <h2>Estudiante de Ing. Tecnologías de la información y comunicación</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/christopher.alvarez.5895834/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/varezchristo/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.link/gmt2b4"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#contacto"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/christo-%C3%A1lvarez-a5b132230/"><i class="fa-brands fa-linkedin"></i></a>
+            </div> 
+        </div>
+    </section>
+    <!--SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Acerca de mi</h2>
+            <p><span>Hola, soy Christo Álvarez</span>, estudiante de ingeniería, actualmente dentro del Instituto Tecnológico Nacional de México, campus Apizaco. Durante mi formación académica, he podido ser partícipe de pequeños y grandes proyectos, así como familiarizarme y trabajar en equipo como de manera independiente. Me considero una persona capaz de trabajar en distintos ambientes y con diferentes personas de manera satisfactoria. Siempre mantengo un carácter de iniciativa, buscando innovar y cumplir con lo que se me solicita.</p>
+            <div class="fila"><!--DATROS PE5RSONALES-->
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            21-01-2004
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +52-241-407-3434
+                        </li>
+                        <li>
+                            <strong>E-mail</strong>
+                            musicianrz21@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Tlaxcala, Tlaxcala, 90491.
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Estudiante de gestión y desarrollo de software</span>
+                        </li>
+                    </ul>
+                </div>
+                <!--INTERESES PERSONALES-->
+                <div class="col">
+                    <h3>Interses personales</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MÚSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-windows"></i>
+                            <span>WINDOWS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LECTURA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-utensils"></i>
+                            <span>COCINAR</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="cv.pdf" download>
+                Descargar CV <i class="fa-solid fa-download" ></i>
+                <span class="overlay"></span>
+                </a>
+            </button>
+        </div>
+    </section>
+    <!--HABILIDADES-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!--TECNICO-->
+                <div class="col">
+                    <h3>Habilidades Técnicas</h3>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso python">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C++</span>
+                        <div class="barra-skill">
+                            <div class="progreso cplusplus">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="barra-skill">
+                            <div class="progreso office">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JS</span>
+                        <div class="barra-skill">
+                            <div class="progreso obs">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--PROFESIONALES-->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso teamwork">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Manager</span>
+                        <div class="barra-skill">
+                            <div class="progreso pmger">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--CURRICULUM-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenedor-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Técnico</h4>
+                        <span class="casa">Preparatoria - CECYTE 07</span>
+                        <span class="fecha">2019 - 2022</span>
+                        <p>Estudié en un bachilletaro tecnológico, con la especialidad en "programacion", durante mi periodo escolar, tenté muchos lenguajes de programacion, entre ellos: C++, Java, JavaScript y Python, al finalizar mis estudios obtuVe un titulo técnico como programador</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y multimedia</h4>
+                        <span class="casa">Icatlax</span>
+                        <span class="fecha">2020</span>
+                        <p>Dentro del "Inistituto de capacitacion del estado de Tlaxcala", fuí partícipe en muchos tipos de proyectos, algunos usando herramientas y entornos de programacion, pero en particular mi capacitacion fue en el uso de herramientas cotidianas y la creacion de contenido multimedia, hacciendo uso de "OBS Studio", donde aprendí el uso completo del software, obteniendo una certificación al finalizar la capacitación</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Office</h4>
+                        <span class="casa">CECATI</span>
+                        <span class="fecha">2021</span>
+                        <p>logré ser candidato para obtener una certificacion bajo la institución educativa "CECATI" (centro de capacitacion para el trabajo), donde el enfoque principal era desarrollar con satisfacción las habilidades de oficina, dando énfasis en aprender y poder usar efectivamente las hojas de cálculo (Excel), al finalizar la capacitación obtuve una certificación que valída mi conocimiento para usar correctamente esta herramienta</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia laboral</h3>
+                    <div class="item der">
+                        <h4>Creacion de Videojuegos</h4>
+                        <span class="casa">Godot Engine</span>
+                        <span class="fecha">2020 - 2021</span>
+                        <p>Durante la mayoria de mi tiempo libre, opté por iniciar y probar como funciona el desarrollo de videojuegos, asi tentando distintos lenguajes de programacion especificos para este tipo de desarrollo, comprendiendo como funciona un motor gráfico, fisicas y la parte escencial que es cumplir las expectativas, como producto de esta práctica cuento con un videojuego arcade 2D, elaborado en Godot</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Programación Orientada a Objetos</h4>
+                        <span class="casa">TECNM Campus Apizaco</span>
+                        <span class="fecha">(actualmente)</span>
+                        <p>Soy estudiante de ingeniería de Tecnologias de la información y comunicación, una de las ramas más importantes dentro la ingeniería, es la programación, que durante este tiempo he podido aprender, también como conocer distintos procesos y metodologías, como se desarrolla un algoritmo, eficiencia, capacidad, programar de manera lineal asi como iniciar y poder desarrollar codigo orientado a objetos y/o eventos</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Proyectos Personales</h4>
+                        <span class="casa">Diferentes Entornos</span>
+                        <span class="fecha">(actualmente)</span>
+                        <p>Me he considerado siempre una persona con iniciativa, actualmente cuento con 3 proyectos personales, con los cuales he tratado de refinar algunas de mis capacidaddes como desarrollador, haciendo uso de herramientas y entornos que no habia usado, dandome la capacidad de adaptarme a un nuevo ambiente</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--PORTAFOLIO-->
+    <section id="portafolio" class="portafolio">
+        <div class="contenedor-seccion">
+            <h2>Placeres</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo</h3>
+                        <p>WEB</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Teamwork</h3>
+                        <p>Distintos ambitos</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Freelance</h3>
+                        <p>Diferentes entornos</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Dedicación</h3>
+                        <p>Trabajos pequeños y grandes</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Multi-herramienta</h3>
+                        <p>trabajar en distintos ambitos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--CONTACTO-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--formulario-->
+                <div class="col">
+                    <form action="https://formspree.io/f/xrgvneeo" method="post">
+                        <input type="text" name="Nombre" placeholder="Nombre" required>
+                        <input type="tel" name="Número celular" placeholder="Número celular" required>
+                        <input type="email" name="email" placeholder="Correo electrónico" required>
+                        <input type="text" name="Motivo" placeholder="Motivo" required>
+                        <textarea name="message" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                        <button type="submit">
+                            Enviar <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
+                </div>
+                <!--MAPA-->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Tlaxcala, Tlaxcala, 90491.
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Contacto: +52 52-241-407-3434
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Correo: musicianrz21@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FOOTER-->
+    <footer>
+        <a href="#inicio" class="flecha_arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/christopher.alvarez.5895834/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/varezchristo/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.link/gmt2b4"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#contacto"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/christo-%C3%A1lvarez-a5b132230/"><i class="fa-brands fa-linkedin"></i></a>
+        </div> 
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
