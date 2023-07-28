@@ -213,7 +213,7 @@ html{
     text-decoration: none;
 }
 
-.sobremi button .overlay{
+.sobremi button a .overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -223,7 +223,7 @@ html{
     z-index: -1;
     transition: .5s;
 }
-.sobremi button:hover .overlay{
+.sobremi button:hover a .overlay{
     width: 100%;
 }
 /*HABILIDADES*/
