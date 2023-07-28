@@ -183,7 +183,23 @@ html{
     font-size: 30px;
     margin-bottom: 10px;
 }
-.sobremi a button{
+
+.sobremi button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 0px 0px 0px 0px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index:10 ;
+    text-decoration: none;
+}
+
+.sobremi button a{
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #fff;
@@ -195,7 +211,11 @@ html{
     color: #fff;
     position: relative;
     z-index:10 ;
+    text-decoration: none;
 }
+
+
+
 .sobremi a button .overlay{
     position: absolute;
     top: 0;
